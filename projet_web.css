@@ -1,0 +1,12 @@
+body {
+	background-color: #252830;
+}
+
+.titre {
+	text-align: center
+}
+
+.jumbotron {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
