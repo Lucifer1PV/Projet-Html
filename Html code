@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta charset="utf-8" />	
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<link rel="stylesheet" href="projet_web.css" />
+	<title> Les objets connectés </title>
+	<meta name="Author" content="Johan, Dorian, Arnaud" />
+	<meta name="Description" content="Site visant à donner des informations sur les objets connectés" />		
+	<meta name="Keywords" content="objets, connectés, informations" />
+</head>
+<body>
+	<div class="container">
+		
+		<!-- Titre -->
+		 <div class="jumbotron">
+			<h1 class="display-4 titre">Bibliographie sur les objets connectés</h1>
+			<p class="titre">Bienvenue sur notre site proposant des informations à propos des objets connectés</p>
+			<hr> </hr>			
+		 </div>		
+		<!-- fin titre -->
+		
+		
+		<!-- debut menu -->			
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Les Objets Connectés</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+						</li>							
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Les differents objets</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Objet 1</a>
+								<a class="dropdown-item" href="#">Objet 2</a>
+								<a class="dropdown-item" href="#">Objet 3</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"><span class="fas fa-arrow-circle-down"></span> Etat actuel</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="#"><span class="fas fa-history"></span> Historique</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="#"><span class="fas fa-angle-double-right"></span> Le futur</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#"><span class="fas fa-users"></span> Contact</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"><span class="fas fa-question-circle"></span> A propos</a>
+							</li>
+						</ul>
+					</form>
+				</div>
+		</nav>
+		<!-- fin menu -->
+		
+		<!-- debut caroussel -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<div id="exemple" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#exemple" data-slide-to="0" class="active"></li>
+				<li data-target="#exemple" data-slide-to="1"></li>
+				<li data-target="#exemple" data-slide-to="2"></li>
+				<li data-target="#exemple" data-slide-to="3"></li>					
+			</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="image1.png">
+				<div class="carousel-caption">
+					<h3>Objet tendance 1</h3>
+					<p>Super objet</p>
+					<a href="#" class="btn btn-primary" role="button">Découvrir l'objet</a>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="image1.png" >
+				<div class="carousel-caption">
+					<h3>Objet Genial 2</h3>
+					<p>Au top !</p>
+					<a href="#" class="btn btn-primary" role="button">Découvrir l'objet</a>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="image1.png">
+				<div class="carousel-caption">
+					<h3>Encore un meilleur objet 3</h3>
+					<p>Avec une fonction WIFI</p>
+					<a href="#" class="btn btn-primary" role="button">Découvrir l'objet</a>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block w-100" src="image1.png">
+				<div class="carousel-caption">
+					<h3>Cette objet va vous surprendre ! 4</h3>
+					<p>Sympathique</p>
+					<a href="#" class="btn btn-primary" role="button">En savoir plus</a>
+				</div>
+			</div>
+		</div>
+			<a class="carousel-control-prev" href="#exemple" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+				<a class="carousel-control-next" href="#exemple" role="button" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+	
+		<!-- fin caroussel -->
+	
+	
+		<!-- debut articles -->
+		<hr> </hr>
+		<div class="row">
+		<div class="col-md-7">
+			<h2> Lorem Ipsum  </h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere mi eu orci accumsan interdum. Pellentesque convallis ultricies porta. Sed eu libero lacinia, sagittis metus a. </p>
+		</div>
+		<div class="col-md-5">
+			<img class="img-fluid" src="objets.jpg" alt="objet" width="400" height="300">
+		</div>
+	
+		</div>
+		<hr> </hr>
+		<div class="row">	
+			<div class="col-md-5">
+				<img class="img-fluid" src="objets.jpg" alt="objet" width="400" height="300">
+			</div>
+			<div class="col-md-7">
+				<h2> Image imagique </h2>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere mi eu orci accumsan interdum. Pellentesque convallis ultricies porta. Sed eu libero lacinia, sagittis metus a.</p>
+			</div>	
+		</div>
+		<hr> </hr>
+		<div class="row">
+			<div class="col-md-7">
+				<h2> Un titre du titre </h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere mi eu orci accumsan interdum. Pellentesque convallis ultricies porta. Sed eu libero lacinia, sagittis metus a. </p>
+			</div>
+			<div class="col-md-5">
+				<img class="img-fluid" src="objets.jpg" alt="objets" width="400" height="300">
+			</div>		
+		</div>
+		<hr> </hr>
+		
+		<!-- fin articles -->
+		
+		
+		
+		
+		
+		<footer>
+			<button type="button" class="btn btn-info float-left "><a class="text-dark" href="#">Retour en haut</a></button>
+			<!--<p class="float-left bg-dark"><a href="#">Retour en haut</a></p> -->
+			<p class="float-right">&copy; 2018-2019 Projet Web</p>
+		</footer>	
+	
+	
+	
+	</div> <!-- div container -->
+</body>
