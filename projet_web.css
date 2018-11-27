@@ -18,3 +18,15 @@ body {
 #clair{
 	background-color: #bcb7b7;
 }
+
+#textleft{
+	margin-left: 5px;
+}
+
+#imgleft{
+	margin-left: 1em;
+}
+
+#imgcadre{
+	border: 3px solid black;
+}
