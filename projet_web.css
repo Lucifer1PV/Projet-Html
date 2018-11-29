@@ -52,8 +52,12 @@ color: #757575;
 }
 
 #title{
+	color: tg;
 	font-size: 2em;
- 
+ max-width: 80%;
+ padding-top: 5rem;
+ margin-left: auto;
+ margin-right: auto;
 font-weight: 900;
  
 line-height: 1.15;
@@ -62,16 +66,23 @@ margin-bottom: .9375em;
 text-align: center;
 }
 
-#titlewhite{
+#titlemilieu{
+	float: left;
 font-size: 2em;
- 
+  max-width: 80%;
+  margin-left: 3em;
 font-weight: 900;
- 
+ padding-top: 19rem;
 line-height: 1.15;
  
 margin-bottom: .9375em;
 text-align: center;
 color: white;	
+}
+
+.fas{
+	size: 1000%;
+	color: black;
 }
 
 #style{
