@@ -21,14 +21,14 @@ color: #757575;
 }
 
 #sombre{
-	background-image: url(objets.jpg);
+	background-image: url(phonecall.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 
 }
 
 #clair{
-	background-image: url(image2.jpg);
+	background-image: url(music_large.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -73,3 +73,12 @@ margin-bottom: .9375em;
 text-align: center;
 color: white;	
 }
+
+#style{
+	height:300px;
+}
+
+#carousel {
+	margin-bottom: 30px;
+}
+
