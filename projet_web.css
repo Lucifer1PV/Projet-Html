@@ -237,5 +237,66 @@ div avec les ligne jaunes
     padding: 4.375em 0 5.625em;
 }
 /*------------------------------------------------------------------*/
+/*css pour le menu*/ 
+/*------------------------------------------------------------------*/
 
+.topnav {
+  overflow: hidden;
+  background-color: #252830;
+}
 
+#bouton{
+	width: 30px;
+}
+
+.topnav a {
+  float:left;
+  display:inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 200px;
+  height: 50px;
+}
+
+#titre{
+  font-size: 125%;
+  font-family: impact;
+  padding: auto;
+  width: 220px;
+  height: 50px;
+}
+
+.topnav a:hover {
+  background-color: #15bcea;
+  color: black;
+
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 1040px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
