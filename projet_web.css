@@ -42,11 +42,11 @@ body {
 
 #titlewhite2{
 	color: white;
-	font-size: 20px;
+	font-size: 40px;
 	margin-top: 0;
 	max-width: 80%;
 	padding-top: 5rem;
-	margin-left: auto;
+	margin-left: 3rem;
 	margin-right: auto;
 	font-weight: 900;
 	text-align: center;
@@ -74,9 +74,20 @@ body {
 	margin-left:3rem;
 	margin-right: 1400px;
 	font-weight: 900;
-	text-align: justify;
-	
-	
+	text-align: justify;	
+}
+
+#lienparagraph{
+	color: white;
+	font-size: 1.125em;
+	margin-top: 20px;
+	max-width: 80%;
+	padding-top: 5rem;
+	float:left;
+	margin-left:3rem;
+	margin-right: 1400px;
+	font-weight: 900;
+	text-align: justify;	
 }
 /*-----------------------------------------------*/
 
@@ -199,6 +210,9 @@ div avec les ligne jaunes
 
 }
 
+/*--------------------------------------------------------------------
+Titre des blocs Historique , Etat actuel , Le futur
+---------------------------------------------------------------------*/
 .title {
     font-size: 1.5em;
     font-weight: 900;
@@ -209,6 +223,10 @@ div avec les ligne jaunes
 	transform: translate3d(0,0,0);
 	
 }
+
+/*--------------------------------------------------------------------
+
+---------------------------------------------------------------------*/
 
 .line {
 	display: inline-block;
