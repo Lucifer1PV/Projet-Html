@@ -14,167 +14,111 @@
 <body>
 	<div>
 		<!-- debut menu -->			
-		
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-left">												
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fas fa-bars"></span> Menu</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Accueil</a>
-								<a class="dropdown-item" href="#">Les differents objets</a>
-								<a class="dropdown-item" href="#"><span class="fas fa-arrow-circle-down"></span> Etat actuel</a>
-								<a class="dropdown-item" href="#"><span class="fas fa-history"></span> Historique</a>
-								<a class="dropdown-item" href="#"><span class="fas fa-angle-double-right"></span> Le futur</a>
-							</div>
-						
-					</ul>
-					<a class="navbar-brand mx-auto" href="#">Les objets connectés</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-							<span class="navbar-toggler-icon"></span>
-						</button>	
-					<form class="form-inline my-2 my-lg-0">
-						<ul class="navbar-nav mr-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="#"><span class="fas fa-users"></span> Contact</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#"><span class="fas fa-question-circle"></span> A propos</a>
-							</li>
-						</ul>
-					</form>
-			</div>	
-		</nav>
-		<!-- fin menu -->
-		
-		<!-- debut caroussel -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			</head>
+			<body>
 
-		<div id="exemple" class="carousel slide" data-ride="carousel" >
-			<ol class="carousel-indicators">
-				<li data-target="#exemple" data-slide-to="0" class="active"></li>
-				<li data-target="#exemple" data-slide-to="1"></li>
-				<li data-target="#exemple" data-slide-to="2"></li>
-				<li data-target="#exemple" data-slide-to="3"></li>					
-			</ol>
-		<div class="carousel-inner" style="height:300px background-repeat: no-repeat background-size: cover">
-			<div class="carousel-item active">
-				<img class="d-block w-100" src="image2.jpg" alt="Bird">
-				<div class="carousel-caption">
-					<p>Super objet</p>
-					<a href="#" class="btn btn-primary" role="button">Découvrir l'objet</a>
-				</div>
+			<div class="topnav" id="myTopnav">
+			  <a id="titre" href="#home">Les objects connectés</a>
+			  <a href=""><span class="fas fa-history"></span> Historique</a>
+			  <a href=""><span class="fas fa-arrow-circle-down"></span> Etat actuel</a>		  
+			  <a href=""><span class="fas fa-angle-double-right"></span> Le futur</a>
+			  <a id="bouton" href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+			  </a>
 			</div>
-			<div class="carousel-item">
-				<img class="d-block w-100" src="image1.png" alt="Bird">
-				<div class="carousel-caption">
-					<p>Au top !</p>
-					<a href="#" class="btn btn-primary" role="button">Découvrir l'objet</a>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img class="d-block w-100" src="image1.png" alt="Bird">
-				<div class="carousel-caption">
-					<p>Avec une fonction WIFI</p>
-					<a href="#" class="btn btn-primary" role="button">Découvrir l'objet</a>
-				</div>
-			</div>
-			<div class="carousel-item">
-				<img class="d-block w-100" src="image2.jpg" alt="Bird">
-				<div class="carousel-caption">
-					<p>Sympathique</p>
-					<a href="#" class="btn btn-primary" role="button">En savoir plus</a>
-				</div>
-			</div>
-		</div>
-			<a class="carousel-control-prev" href="#exemple" role="button" data-slide="prev">
-				<span class="fas fa-caret-square-left fa-3x"></span>
-			</a>
-				<a class="carousel-control-next" href="#exemple" role="button" data-slide="next">
-			<span class="fas fa-caret-square-right fa-3x"></span>
-			</a>
-		</div>
-	
-		<!-- fin caroussel -->
-	
+		
+			<script>
+			function myFunction() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+			</script>
+		<!-- fin menu -->
 	
 		<!-- debut articles -->
 		<!--hr supprimé-->
 		<div id="divsombre" class="row">
 		<div style="height: 840px" class="col-md-12">
-			<h1 id="titlewhite">THE FROGS ARE TURNING GAY</h1>
-				<p id="paragraph1">  ite intro pour présenter notre sitepetite intro pour présenter notre site</p>
+			<h1 id="titlewhite">Projet tutoré: Les Objets Connecté</h1>
+				<p id="paragraph1">
+					On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement 
+					(histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).e
+				</p>
 			</div>	
 		</div>
 		
-		
+		<!-- début div avec les titre -->
       <div class="spec-group">
 		<div class="spec-item">
-			<p class="title">Snapdragon™ 845</p>
-			<p class="desc">Jusqu'à 2.8 GHz avec AIE 845</p>
+			<p class="title">Historique</p>
+			<p class="desc">Du début jusqu'à l'infini</p>
 		<div class="underline">
 				<span class="line"></span>
 		</div>
 		</div>
 		
         <div class="spec-item">
-			<p class="title">Technologie LiquidCool</p>
-			<p class="desc">Les meilleures performances thermiques de l'industrie</p>
+			<p class="title">Etat actuel</p>
+			<p class="desc">Cela ressemble à quoi de nos jours</p>
         <div class="underline">
 			<span class="line"></span>
         </div>
         </div>
 		
         <div class="spec-item">
-			<p class="title">Batterie 4000mAh (typ)</p>
-			<p class="desc">Quick Charge™ 3.0</p>
+			<p class="title">Le futur</p>
+			<p class="desc">On aura droit à quoi plus tard</p>
         <div class="underline">
 			<span class="line"></span>
         </div>
         </div>
-		
-        <div class="spec-item">
-			<p class="title">MIUI pour POCO</p>
-			<p class="desc">Plus léger, plus rapide et plus design</p>
-        <div class="underline">
-			<span class="line"></span>
-        </div>
-        </div>
-		
-        <div class="spec-item">
-			<p class="title">Double capteur avec IA</p>
-			<p class="desc">Autofocus Dual Pixel</p>
-		<div class="underline">
-			<span class="line"></span>
-        </div>
-        </div>
-        
-		<div class="spec-item">
-			<p class="title">Capteur frontal 20 MP</p>
-			<p class="desc">Super Pixel</p>
-        <div class="underline">
-            <span class="line"></span>
-          </div>
-        </div>
-      </div>
-    
+		<!-- fin du div -->
 	
+		<!-- début du bloc contenant Historique,Etat actuel,Le futur -->
 		</div>
-		<!--hr supprimé-->
+		
 		<div id="divclair" class="row">	
-			
-			<div style="height: 600px" class="col-md-12" id="textleft">
-				<h1 id="titlewhite2">BE CONNECTED TO THE HIVE</h1>
-				
+			<div style="height: 700px" class="col-md-12">
+				<h1 id="titlewhite2">Historique</h1>
+					<p id="paragraph1">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, 
+						comme Aldus PageMaker.
+					</p>
+					<a id="lienparagraph" href="#">En savoir plus</a>
 			</div>	
 		</div>
-		<!--hr supprimé-->
+		
+		
 		<div id="divsombre2" class="row">
-			<div style="height: 800px" class="col-md-12">
-				<h1 id="titlewhite3">PRANKED BRO </h1>
-			</div>
-				
+			<div style="height: 700px" class="col-md-12">
+				<h1 id="titlewhite2">Etat actuel</h1>
+					<p id="paragraph1">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, 
+						comme Aldus PageMaker.
+					</p>
+					<a id="lienparagraph" href="#">En savoir plus</a>
+			</div>	
 		</div>
-		<!--hr supprimé-->
+		
+		<div id="divclair" class="row">	
+			<div style="height: 700px" class="col-md-12">
+				<h1 id="titlewhite2">Le futur</h1>
+					<p id="paragraph1">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, 
+						comme Aldus PageMaker.
+					</p>
+					<a id="lienparagraph" href="#">En savoir plus</a>
+			</div>	
+		</div>
+		
+		</div>
+	
+		
+		
 		
 		<!-- fin articles -->
 		
@@ -183,31 +127,20 @@
 		<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
 			<div class="container">				
 				<div class="row row-30">
-					<div class="col-md-4 col-xl-5">
-						<div class="pr-x1-4">
-							<a class="brand" href="#"></a>
-							<p> We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.
-							</p>
-							<p class="rights">
-								<span>©  </span>
-								<span class="copyright-year">2018</span>
-								<span> </span>
-								<span>Waves</span>
-								<span>. </span>
-								<span>All Rights Reserved.</span>
-							</p>
-						</div>
-					</div>
 					<div class="col-md-4">
 						<h5>Contacts</h5>
 						<dl class="contact-list">
 							<dt>Adresse:</dt>
-							<dd>.................</dd>
+							<dd>
+								<a href="https://www.google.com/maps/place/IUT+d'Aix-Marseille+site+d'Arles/@43.6723861,4.6375445,17z/data=!3m1!4b1!4m5!3m4!1s0x12b676717e4bee3d:0x6b60cf7fd933e35d!8m2!3d43.6723861!4d4.6397332" target="_blank">
+									IUT d'Arles
+								</a>
+							</dd>
 						</dl>
 						<dl class="contact-list">
 							<dt>email:</dt>
 							<dd>
-								<a href="mailto:#">........@etu.univ-amu.fr</a>
+								<a href="https://outlook.live.com/owa/" target="_blank">........@etu.univ-amu.fr</a>
 							</dd>
 						</dl>
 						<dl class="contact-list">
@@ -231,7 +164,7 @@
 							</li>
 							<li>
 								<a href="#">
-									Les differents objets
+									Historique
 								</a>
 							</li>
 							<li>
@@ -239,17 +172,28 @@
 									Etat actuel
 								</a>
 							</li>
-							<li>
-								<a href="#">
-									Historique
-								</a>
-							</li>
+							
 							<li>
 								<a href="#">
 									Le futur
 								</a>
 							</li>
 						</ul>
+					</div>
+					<div class="col-md-4 col-xl-5">
+						<div class="pr-x1-4">
+							<a class="brand" href="#"></a>
+							<p> We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.
+							</p>
+							<p class="rights">
+								<span>©  </span>
+								<span class="copyright-year">2018</span>
+								<span> </span>
+								<span>Waves</span>
+								<span>. </span>
+								<span>All Rights Reserved.</span>
+							</p>
+						</div>
 					</div>
 				</div>					
 			</div>					
