@@ -1,33 +1,78 @@
 body {
-	background-color: #252830;
-	font-family: ProximaNova,Arial,Sans-serif;
-	font-weight: 400; 
-	font-size: 14px;
+	background-color: #252830; 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
 }
-/*---------------------------------------------------*/
-	/*article*/
+
+
+/*---------------------------------------------------
+article
+----------------------------------------------------*/
 #divsombre{
 	background-image: url(phonecall.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-width: 1920px;
+	max-height: auto;
+
+
 }
 
 #divsombre2{
 	background-image: url(phone.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	max-width: 1920px;
+	max-height: auto;
 }
 
 #divclair{
 	background-image: url(music_large.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	max-width: 1920px;
+	max-height: 1400px;
 }
+/*---------------------------------------------------*/
 
-/*-----------------------------------------------*/
-/*paragraphe article*/
-#titlewhite{
+
+
+/*-----------------------------------------------
+paragraphe article
+------------------------------------------------*/
+
+
+@media screen and (min-width: 768px){
+	/*--------------------------------------------------------------------
+	Titre des blocs Historique , Etat actuel , Le futur
+	---------------------------------------------------------------------*/
+	.title {
+	    font-size: 3em;
+	    font-weight: 900;
+	    margin-bottom: 0;
+		transition-delay: .5s;
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		
+	}
+
+	.prg  {
+		font-size: 20px;
+	    font-weight: 900;
+	    margin-bottom: 0;
+		transition-delay: .5s;
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+	/*--------------------------------------------------------------------*/
+
+	#titlewhite{
 	color: white;
 	font-size: 40px;
 	margin-top: 0;
@@ -38,68 +83,184 @@ body {
 	margin-right: auto;
 	font-weight: 900;
 	text-align: center;
+	}
+
+	#titlewhite2{
+		color: white;
+		font-size: 40px;
+		margin-top: 0;
+		max-width: 80%;
+		padding-top: 5rem;
+		margin-left: 3rem;
+		margin-right: auto;
+		font-weight: 900;
+		text-align: center;
+	}
+
+	#titlewhite3{
+		color: white;
+		font-size: 20px;
+		margin-top: 0;
+		max-width: 80%;
+		padding-top: 5rem;
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: 900;
+		text-align: center;
+	}
+
+	#paragraph1{
+		color: #bababa;
+		font-size: 1.125em;
+		margin-top: 20px;
+		max-width: auto;
+		padding-top: 5rem;
+		float:left;
+		margin-left:3rem;
+		margin-right: auto;
+		font-weight: 900;
+		text-align: justify;
+		margin-bottom: auto;	
+	}
+
+	#lienparagraph{
+		color: white;
+		font-size: 1.125em;
+		margin-top: 20px;
+		max-width: auto;
+		padding-top: 5rem;
+		float:left;
+		margin-left:3rem;
+		margin-right: auto;
+		font-weight: 900;
+		text-align: justify;
+		margin-bottom: auto;	
+	}
+
 }
 
-#titlewhite2{
+@media screen and (max-width: 768px){
+	/*--------------------------------------------------------------------
+	Titre des blocs Historique , Etat actuel , Le futur
+	---------------------------------------------------------------------*/
+	.title {
+	    font-size: 20px;
+	    font-weight:bold;
+	    margin-bottom: 0;
+		transition-delay: .5s;
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+		
+	}
+
+	.prg  {
+		font-size: 10px;
+	    font-weight:bold;
+	    margin-bottom: 0;
+		transition-delay: .5s;
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+	/*--------------------------------------------------------------------*/
+
+	#titlewhite{
 	color: white;
 	font-size: 40px;
 	margin-top: 0;
 	max-width: 80%;
 	padding-top: 5rem;
-	margin-left: 3rem;
+	float:left;
+	margin-left:3rem;
 	margin-right: auto;
 	font-weight: 900;
 	text-align: center;
-}
+	}
 
-#titlewhite3{
-	color: white;
-	font-size: 20px;
-	margin-top: 0;
-	max-width: 80%;
-	padding-top: 5rem;
-	margin-left: auto;
-	margin-right: auto;
-	font-weight: 900;
-	text-align: center;
-}
+	#titlewhite2{
+		color: white;
+		font-size: 40px;
+		margin-top: 0;
+		max-width: 80%;
+		padding-top: 5rem;
+		margin-left: 3rem;
+		margin-right: auto;
+		font-weight: 900;
+		text-align: center;
+	}
 
-#paragraph1{
-	color: #bababa;
-	font-size: 1.125em;
-	margin-top: 20px;
-	max-width: 80%;
-	padding-top: 5rem;
-	float:left;
-	margin-left:3rem;
-	margin-right: 1400px;
-	font-weight: 900;
-	text-align: justify;	
-}
+	#titlewhite3{
+		color: white;
+		font-size: 20px;
+		margin-top: 0;
+		max-width: 80%;
+		padding-top: 5rem;
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: 900;
+		text-align: center;
+	}
 
-#lienparagraph{
-	color: white;
-	font-size: 1.125em;
-	margin-top: 20px;
-	max-width: 80%;
-	padding-top: 5rem;
-	float:left;
-	margin-left:3rem;
-	margin-right: 1400px;
-	font-weight: 900;
-	text-align: justify;	
+	#paragraph1{
+		color: #bababa;
+		font-size: 1em;
+		margin-top: 20px;
+		max-width: auto;
+		padding-top: 5rem;
+		float:left;
+		margin-left:3rem;
+		margin-right: auto;
+		font-weight: 900;
+		text-align: justify;
+		margin-bottom: auto;	
+	}
+
+	#lienparagraph{
+		color: white;
+		font-size: 1em;
+		margin-top: 20px;
+		max-width: auto;
+		padding-top: 5rem;
+		float:left;
+		margin-left:3rem;
+		margin-right: auto;
+		font-weight: 900;
+		text-align: justify;
+		margin-bottom: auto;	
+	}
+
+	#prf{
+		text-align: justify;
+		margin: auto;
+
+	}
+
+	#link{
+		margin: auto;
+	}
+
+
 }
 /*-----------------------------------------------*/
 
-/*menu liste (<a>)*/
 
+
+
+/*----------------------------------------------
+menu liste (<a>)
+-------------------------------------------------*/
 .fas{
 	size: 1000%;
 	color: white;
 }
-/*------------------------------------------------*/
+/*-----------------------------------------------*/
 
-/*div carousel*/
+
+
+/*------------------------------------------------
+div carousel
+-------------------------------------------------*/
 #style{
 	height:300px;
 }
@@ -107,16 +268,19 @@ body {
 #carousel {
 	margin-bottom: 30px;
 }
+/*-----------------------------------------------*/
 
-/*-------------------------------------------------*/
 
-/*footer*/
+
+
+/*-------------------------------------------------
+footer
+--------------------------------------------------*/
 .col-md-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     -max-width: 33.333333%;
 }
-/*--------------------------------------------------*/
 
 .section {
 	background: #0f0f0f 50% 0 no-repeat;
@@ -125,72 +289,29 @@ body {
 }
 
 
-
-
-
-
-
-/*---------------------------------------------------*/
-
-
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
 
     color: #ffffff;
 
 }
-
-/*-------------------------------------------------*/
-
-/*liste ul + ol */
-ul, ol {
-
-    list-style: none;
-
-}
-
 /*--------------------------------------------------*/
- h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: .5rem;
-
-}
-
-/*---------------------------------------------------*/
 
 
 
-*, ::after, ::before {
 
-    box-sizing: border-box;
 
-}
+/*-------------------------------------------------
+liste ul + ol 
+--------------------------------------------------*/
 ul, ol {
 
     list-style: none;
 
 }
+/*--------------------------------------------------*/
 
-élément {
 
-    background: #2d3246;
 
-}
-.context-dark, .bg-gray-dark, .bg-primary {
-
-    color: rgba(255, 255, 255, 0.8);
-
-}
-
-body {
-
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-
-}
 
 /*-------------------------------------------------------------------
 div avec les ligne jaunes 
@@ -210,24 +331,6 @@ div avec les ligne jaunes
 
 }
 
-/*--------------------------------------------------------------------
-Titre des blocs Historique , Etat actuel , Le futur
----------------------------------------------------------------------*/
-.title {
-    font-size: 1.5em;
-    font-weight: 900;
-    margin-bottom: 0;
-	transition-delay: .5s;
-	opacity: 1;
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-	
-}
-
-/*--------------------------------------------------------------------
-
----------------------------------------------------------------------*/
-
 .line {
 	display: inline-block;
 	width: 2.8125em;
@@ -235,16 +338,7 @@ Titre des blocs Historique , Etat actuel , Le futur
 	background-color: #f4c31b;
 }
 
-.spec-item {
 
-    -webkit-flex: 33%;
-    -ms-flex: 33%;
-    flex: 33%;
-    text-align: center;
-    padding: 1.875em 1.25em;
-	position: relative;
-	
-}
 .spec-group {
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -254,10 +348,36 @@ Titre des blocs Historique , Etat actuel , Le futur
 	flex-wrap: wrap;
     padding: 4.375em 0 5.625em;
 }
-/*------------------------------------------------------------------*/
-/*css pour le menu*/ 
-/*------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------
+
+---------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------*/
+
+
+
+
+
+
+/*------------------------------------------------------------------
+css pour le menu
+------------------------------------------------------------------*/
 .topnav {
   overflow: hidden;
   background-color: #252830;
